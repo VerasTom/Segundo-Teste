@@ -1,9 +1,77 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <h1>Título</h1>
-    </body>
-</html>
+<html lang="pt-br">
+  <head>
+    <meta push="" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="img/design/Veras-icon.ico" rel="shortcut icon">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <title>Teste de Bootstrap</title>
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Ação</a>
+              <a class="dropdown-item" href="#">Outra ação</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Algo mais aqui</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Desativado</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </nav>
+    <!--Equipe-->
+    <div class="ROW">
+        <div class="col-lg-3">
+          <img class="rounded-circle" src="A colocar" alt="Vilmácio Moura" width="130" height="140">
+          <h3>Vilmacio</h3>
+          <p>Membro</p>
+          <p><a class="btn btn-outline-success" href="#" role="button">Github </a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+          <img class="rounded-circle" src="img/equipe/marcos.png" alt="Marcos Vinicius" width="130" height="120">
+          <h3>Marcos Vinícius</h3>
+          <p>Membro</p>
+          <p><a class="btn btn-outline-success" href="#" role="button">Github</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <img class="rounded-circle" src="A colocar" alt="Natanael Luís" width="130" height="120">
+          <h3>Natanael Luís</h3>
+          <p>Membro</p>
+          <p><a class="btn btn-outline-success" href="#" role="button">Github »</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+            <img class="rounded-circle" src="A colocar" alt="Gabriel Veras" width="130" height="120">
+            <h3>Gabriel Veras</h3>
+            <p>Membro</p>
+            <p><a class="btn btn-outline-success" href="https://github.com/VerasTom" role="button">Github »</a></p>
+          </div><!-- /.col-lg-3 -->
+      </div>
+  </body>
+  </html>
